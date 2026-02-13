@@ -1,0 +1,43 @@
+@media(min-width:768px) {
+    .cont {
+        max-width: 768px;
+        padding: 38px 0 74px 80px;
+        background-image: url(./assets/body-bg-tab.png);
+    }
+
+    .cont>header,
+    .cont>section {
+        padding-right: 80px;
+    }
+
+    main {
+        gap: 63px;
+    }
+
+    section {
+        max-width: 470px;
+    }
+
+    h1 {
+        margin: 32px 0;
+        font-size: 64px;
+        line-height: 100%;
+    }
+
+    .section-footer {
+        gap: 24px;
+    }
+
+    a {
+        padding: 15px 36.5px;
+    }
+
+    a+h2 {
+        letter-spacing: 5px;
+    }
+
+    .burger-menu {
+        padding: 22px 47px;
+        top: 10%;
+    }
+}

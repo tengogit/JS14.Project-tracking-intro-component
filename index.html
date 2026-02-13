@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tengo Kajrishvili">
+    <meta name="description" content="Portfolio Project, Frontend Mentor Challenge,Uploaded On Github,Hosted On Vercel">
+    <meta name="keywords" content="Web Development, HTML, CSS, JavaScript,Portfolio, Frontend Mentor,Project tracking intro component">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="icon" href="./assets/figure-bg-mob.png">
+
+    <title>Project tracking intro component</title>
+</head>
+
+<body>
+    <div class="burger-menu" id="burger-menu">
+        <nav class="burger-nav">
+            <ul>
+                <li><a href="error.html" target="_blank">PRODUCT</a></li>
+                <li><a href="error.html" target="_blank">FEATURES</a></li>
+                <li><a href="error.html" target="_blank">PRICING</a></li>
+                <li class="line"></li>
+                <li><a href="error.html" class="login" target="_blank">LOGIN</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="cont">
+
+        <header>
+            <picture>
+                <source srcset="assets/logo-mob-tab.png" media="(max-width:1439px)">
+                <img src="./assets/logo-des.png" alt="Page Logo For Desktop">
+            </picture>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="error.html" target="_blank"><span class="header-span"> PRODUCT</span></a></li>
+                    <li><a href="error.html" target="_blank"><span class="header-span">FEATURES</span></a></li>
+                    <li><a href="error.html" target="_blank"><span class="header-span">PRICING</span> </a></li>
+                    <li>
+                        <div class="dot"></div>
+                    </li>
+                    <li><a href="error.html" target="_blank" class="login"><span class="header-span">LOGIN</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="open-btn" id="open-btn"><img src="./assets/burger-icon.png" alt="BUrger open icon"></button>
+            <button class="close-btn" id="close-btn"><img src="./assets/close-icon.png"
+                    alt="Burger close icon"></button>
+        </header>
+
+        <main id="main">
+            <figure>
+                <picture>
+                    <source srcset="assets/figure-bg-mob.svg" media="(max-width:767px)">
+                    <source srcset="assets/figure-bg-tab.svg" media="(min-width:768px) and (max-width:1439px)">
+                    <img src="./assets/figure-bg-des.svg" alt="Figure picture for desktop">
+
+                </picture>
+            </figure>
+            <section>
+                <div class="section-header">
+                    <img src="./assets/Badge.png" alt="Section Logo">
+                    <h2>MONOGRAPH DASHBOARD</h2>
+                </div>
+                <h1>POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+                <p>Project planning and time tracking for agile teams</p>
+                <div class="section-footer">
+                    <a href="error.html" target="_blank"><span>SCHEDULE A DEMO</span></a>
+                    <h2>TO SEE A PREVIEW</h2>
+                </div>
+            </section>
+        </main>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
