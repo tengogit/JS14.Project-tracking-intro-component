@@ -260,6 +260,9 @@ section a:active span{
     transform: translateY(-5px);
     border-bottom: 1px solid black;
 }
+.no-scroll{
+    scroll-behavior: none;
+}
 .scroll-up{
     width:max-content;
     height: max-content;
