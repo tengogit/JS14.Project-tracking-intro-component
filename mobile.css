@@ -261,7 +261,7 @@ section a:active span{
     border-bottom: 1px solid black;
 }
 .no-scroll{
-    scroll-behavior: none;
+  overflow: hidden;
 }
 .scroll-up{
     width:max-content;
