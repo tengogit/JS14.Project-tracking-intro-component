@@ -27,9 +27,14 @@
         column-gap: 157px;
         margin-top: 124px;
     }
-
+.header-nav ul{
+    gap: 40px;
+}
     figure {
         order: 1;
+    }
+    a{
+        padding: 0;
     }
 
 }
