@@ -260,7 +260,7 @@ section a:active span{
     transform: translateY(-5px);
     border-bottom: 1px solid black;
 }
-.no-scroll{
+body.no-scroll{
   overflow: hidden;
 }
 .scroll-up{
